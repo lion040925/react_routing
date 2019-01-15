@@ -23,6 +23,12 @@ function BasicExample() {
           <li>
             <Link to="/signup">회원가입</Link>
           </li>
+          <li>
+            <Link to="/dayInoutForm">일일출퇴근기록</Link>
+          </li>
+          <li>
+            <Link to="/monthInoutForm">월간출퇴근기록관리</Link>
+          </li>
         </ul>
 
         <hr />
@@ -32,6 +38,8 @@ function BasicExample() {
         <Route path="/topics" component={Topics} />
         <Route path="/login" component={LoginForm} />
         <Route path="/signup" component={SignupForm} />
+        <Route path="/dayInoutForm" component={DayInoutForm} />
+        <Route path="/monthInoutForm" component={MonthInoutForm} />
       </div>
     </Router>
   );
